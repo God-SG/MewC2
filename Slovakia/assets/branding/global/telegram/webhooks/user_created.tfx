@@ -1,0 +1,10 @@
+**User <<user.$username>> created.**
+
+[ MaxTime /> <<user.maxtime()>>
+[ Concurrents /> <<user.conns()>>
+[ Cooldown /> <<user.$cooldown>>
+[ Roles /> <<user.roles(",")>>
+[ Theme /> <<user.$theme>>
+[ Expires /> <<time.until(user.$expiry)>>
+
+(<<user.$username>>) Created by <<actor.$username>>

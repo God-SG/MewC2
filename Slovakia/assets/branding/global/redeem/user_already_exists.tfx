@@ -1,0 +1,3 @@
+\x1b[0m
+                </> User with that username already exists.
+<<sleep(10000)>>

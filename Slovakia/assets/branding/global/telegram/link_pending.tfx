@@ -1,0 +1,5 @@
+Your chat is currently in a pending state, awaiting an active link!
+
+To connect your account, please log into the CNC and enter the `connect` command. When prompted, input the following code: **<<$code>>**.
+
+The code will expire in 10 minutes. Once it has expired, simply rerun this command to generate a fresh code.

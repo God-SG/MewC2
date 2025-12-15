@@ -1,0 +1,6 @@
+<<term.Resize(80,24)>>
+\033[14;17f\x1b[48;5;9;38;5;16m                                                   \x1b[0m
+\033[15;17f\x1b[48;5;9;38;5;15m                  Access Denied                    \x1b[0m
+\033[16;17f\x1b[48;5;9;38;5;15m             Too many failed attempts              \x1b[0m
+\033[17;17f\x1b[48;5;9;38;5;15m                                                   \x1b[0m
+<<term.Shake(5, 3)>><<sleep(2500)>>

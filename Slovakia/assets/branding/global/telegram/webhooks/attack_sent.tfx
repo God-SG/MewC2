@@ -1,0 +1,5 @@
+Attack sent by <<user.$username>>
+Target /> <<$target>>
+Port /> <<$port>>
+Duration /> <<$duration>>
+Method /> <<$method>>
