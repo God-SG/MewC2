@@ -1,0 +1,57 @@
+{
+        "compact": {
+                "header": {
+                        "AboveHeaderLeft": " ",
+                        "AboveHeaderRight": " ",
+                        "AboveHeaderHorizontal": " ",
+                        "AboveHeaderIntersection": " ",
+
+                        "HeaderLeft": " ",
+                        "HeaderRight": " ", 
+                        "HeaderIntersection": " ",
+
+                        "BelowHeaderLeft": " ",
+                        "BelowHeaderRight": " ",
+                        "BelowHeaderHorizontal": "-",
+                        "BelowHeaderIntersection": " "
+                },
+
+                "body": {
+                        "ValueLeft": " ",
+                        "ValueRight": " ",
+                        "ValueIntersection": " ",
+                        "BelowBodyLeft": " ",
+                        "BelowBodyRight": " ",
+                        "BelowBodyHorizontal": " ",
+                        "BelowBodyIntersection": " "
+                }
+        },
+
+        "box": {
+                "header": {
+                        "AboveHeaderLeft": "┌",
+                        "AboveHeaderRight": "┐",
+                        "AboveHeaderHorizontal": "─",
+                        "AboveHeaderIntersection": "┬",
+
+                        "HeaderLeft": "│",
+                        "HeaderRight": "│", 
+                        "HeaderIntersection": "│",
+
+                        "BelowHeaderLeft": "├",
+                        "BelowHeaderRight": "┤",
+                        "BelowHeaderHorizontal": "─",
+                        "BelowHeaderIntersection": "┼"
+                },
+
+                "body": {
+                        "ValueLeft": "│",
+                        "ValueRight": "│",
+                        "ValueIntersection": "│",
+                        "BelowBodyLeft": "└",
+                        "BelowBodyRight": "┘",
+                        "BelowBodyHorizontal": "─",
+                        "BelowBodyIntersection": "┴"
+                }
+        }
+}
