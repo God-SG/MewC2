@@ -1,0 +1,88 @@
+[Wed Jan  1 11:28:34 2025] root has changed root's concurrents to 5
+[Wed Jan  1 11:31:27 2025] root has changed root's concurrents to 5
+[Wed Jan  1 11:31:42 2025] root has changed root's concurrents to 5
+[Wed Jan  1 11:33:27 2025] root has changed root's concurrents to 5
+[Wed Jan  1 11:33:34 2025] root has changed root's concurrents to 5
+[Wed Jan  1 11:33:37 2025] root has changed root's concurrents to 5
+[Wed Jan  1 11:33:45 2025] root has changed root's concurrents to 3
+[Wed Jan  1 11:34:06 2025] root has changed root's concurrents to 5
+[Mon Jan 20 23:51:56 2025] root has banned test3
+[Mon Jan 27 20:01:33 2025] root has changed root's concurrents to 0
+[Mon Jan 27 20:01:51 2025] root has changed root's cooldown to 0
+[Tue Feb  4 09:45:18 2025] root has promoted test to admin
+[Tue Feb  4 22:35:48 2025] root has changed test5's expiry to expiry in a long while ago
+[Tue Feb  4 22:37:28 2025] root has changed root's maxtime to 120
+[Tue Feb  4 22:37:44 2025] root has changed root's maxtime to -1
+[Tue Feb  4 22:38:31 2025] root has changed test5's password
+[Tue Feb  4 22:39:15 2025] root has changed root's concurrents to 2
+[Tue Feb  4 22:39:21 2025] root has changed root's concurrents to -1
+[Tue Feb 25 12:23:52 2025] root has promoted root to vip
+[Tue Feb 25 12:30:53 2025] root has demoted root from vip
+[Sat Mar  8 03:06:52 2025] root has promoted root to vip
+[Sat Mar  8 03:07:19 2025] root has demoted root from vip
+[Sat Mar 29 22:27:52 2025] root has promoted root to vip
+[Sat Mar 29 22:32:03 2025] root has banned test
+[Sat Mar 29 22:32:15 2025] root has unbanned test
+[Sun Mar 30 01:25:16 2025] root purged all banned users
+[Sun Mar 30 01:30:28 2025] root has demoted root from 
+[Sun Mar 30 01:34:37 2025] root has promoted root to admin
+[Sun Mar 30 03:07:45 2025] root has promoted root to vip
+[Sun Mar 30 03:41:39 2025] root has promoted root to powersaving_bypass
+[Fri Apr  4 22:39:54 2025] root has promoted root to test
+[Fri Apr  4 22:41:29 2025] root has demoted root from test
+[Fri Apr  4 22:41:53 2025] root has demoted root from bypass_blacklist
+[Fri Apr  4 22:42:35 2025] root has demoted root from vip
+[Fri Apr  4 22:42:47 2025] root has promoted root to vip
+[Mon May 12 20:46:21 2025] root has changed test's password
+[Mon May 12 20:47:03 2025] root has changed test's expiry to expiry in a long while ago
+[Sat Nov 29 21:27:28 2025] root has created misery
+[Sat Nov 29 21:29:00 2025] root has promoted misery to admin
+[Sat Nov 29 21:29:24 2025] root has created bandit
+[Sat Nov 29 22:28:54 2025] root has adjusted root max sessions to 999
+[Sat Nov 29 23:39:22 2025] root has promoted bandit to admin
+[Sun Nov 30 20:34:07 2025] root has created amt
+[Sun Nov 30 20:35:32 2025] root has created yeminu
+[Sun Nov 30 20:36:55 2025] root has created sinz
+[Sun Nov 30 20:37:56 2025] root has changed root's concurrents to 0
+[Sun Nov 30 20:38:05 2025] root has changed root's maxtime to 0
+[Sun Nov 30 20:44:26 2025] root has promoted amt to reseller
+[Sun Nov 30 20:46:25 2025] root has created nonethics
+[Sun Nov 30 20:53:15 2025] root has adjusted amt max sessions to 999
+[Sun Nov 30 21:42:41 2025] bandit has created mxrgy
+[Sun Nov 30 21:45:43 2025] root has promoted root to api
+[Sun Nov 30 22:25:56 2025] bandit has created ewo
+[Sun Nov 30 22:26:46 2025] root has changed ewo's maxtime to 86400
+[Sun Nov 30 22:26:53 2025] root has adjusted ewo max sessions to 999
+[Sun Nov 30 23:45:54 2025] root has created salzling
+[Sun Nov 30 23:59:21 2025] root has adjusted bandit max sessions to 9999
+[Mon Dec  1 00:48:38 2025] bandit has created stillcamp
+[Mon Dec  1 07:36:19 2025] root has changed root's cooldown to 0
+[Mon Dec  1 08:11:11 2025] bandit has created opsex
+[Tue Dec  2 00:33:56 2025] bandit has removed bandit
+[Tue Dec  2 00:39:42 2025] misery has created bandit
+[Tue Dec  2 00:45:06 2025] misery has promoted bandit to admin
+[Tue Dec  2 02:43:52 2025] amt has created loc
+[Tue Dec  2 23:08:05 2025] bandit has created test
+[Tue Dec  2 23:13:06 2025] misery has removed test
+[Thu Dec  4 08:45:00 2025] misery has removed loc
+[Thu Dec  4 08:45:05 2025] misery has removed opsex
+[Thu Dec  4 08:45:16 2025] misery has removed stillcamp
+[Thu Dec  4 08:45:23 2025] misery has removed salzling
+[Thu Dec  4 08:45:28 2025] misery has removed ewo
+[Thu Dec  4 08:45:35 2025] misery has removed mxrgy
+[Thu Dec  4 08:45:56 2025] misery has removed nonethics
+[Thu Dec  4 08:46:01 2025] misery has removed sinz
+[Thu Dec  4 08:46:06 2025] misery has removed yeminu
+[Thu Dec  4 22:10:37 2025] misery has created test
+[Thu Dec  4 22:27:43 2025] root has adjusted misery max sessions to 9999999
+[Fri Dec  5 04:43:27 2025] misery has removed test
+[Sat Dec  6 01:26:08 2025] bandit has created nonethics
+[Sat Dec  6 02:18:56 2025] root has changed nonethics's maxtime to 86400
+[Sat Dec  6 02:49:25 2025] root has changed amt's password
+[Sat Dec  6 03:33:04 2025] root has changed amt's expiry to expiry in a long while ago
+[Sat Dec  6 03:33:06 2025] root has changed amt's expiry to expiry in a long while ago
+[Sat Dec  6 03:33:40 2025] root has changed amt's password
+[Sat Dec  6 03:35:52 2025] root has adjusted amt max sessions to 999
+[Mon Dec  8 04:55:52 2025] amt has created yeminu
+[Mon Dec  8 05:12:47 2025] amt has created tear
+[Mon Dec  8 06:52:05 2025] amt has created cain

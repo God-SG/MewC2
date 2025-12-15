@@ -1,0 +1,10 @@
+
+CREATE TABLE `logins` (
+          `id` INTEGER(10) NOT NULL AUTO_INCREMENT,
+          `user` INTEGER(10) NOT NULL,
+          `username` VARCHAR(64) NOT NULL,
+          `created` BIGINT NOT NULL,
+          `terminal` VARCHAR(255) NOT NULL,
+          `ip` VARCHAR(128) NOT NULL,
+          PRIMARY KEY (`id`)
+)

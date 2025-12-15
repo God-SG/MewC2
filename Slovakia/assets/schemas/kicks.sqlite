@@ -1,0 +1,9 @@
+
+CREATE TABLE `kicks` (
+          `id` INTEGER PRIMARY KEY AUTOINCREMENT,
+          `user` INTEGER NOT NULL,
+          `issuer` INTEGER NOT NULL,
+          `reason` TEXT NOT NULL,
+          `created_at` INTEGER NOT NULL,
+          `weighted_for` INTEGER NOT NULL
+);

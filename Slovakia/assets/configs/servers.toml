@@ -1,0 +1,11 @@
+[server-1]
+connection="127.0.0.1"
+username="root"
+password="placeholder"
+description="placeholder"
+
+[server-2]
+connection="127.0.0.1"
+username="root"
+password="placeholder"
+description="placeholder"

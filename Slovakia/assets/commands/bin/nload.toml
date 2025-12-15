@@ -1,0 +1,5 @@
+name=["nload"]
+description="Open nload from cnc server."
+permissions=["admin"]
+runtime="htop"
+vars=["username=<<user.$username>>"]

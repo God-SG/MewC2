@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Methods</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Satoshi:wght@300;400;500;700&display=swap');
+
+    /* Global Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box !important;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-color: #0b0612; /* deep purple-black */
+      font-family: 'Satoshi', sans-serif;
+      overflow: hidden;
+      position: relative;
+      line-height: 1.6;
+      color: #e7d4ff;
+    }
+
+    .container {
+      background-color: #140a23; /* purple card */
+      border-radius: 12px;
+      padding: 20px;
+      width: 90%;
+      max-width: 800px;
+      box-shadow: 0 0 25px rgba(143, 66, 255, 0.35);
+      text-align: center;
+      overflow-y: auto;
+      position: relative;
+      z-index: 1;
+      border: 1px solid rgba(180, 120, 255, 0.2);
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 15px;
+      transition: transform 0.3s ease-in-out;
+      filter: drop-shadow(0px 2px 4px rgba(120, 60, 255, 0.6));
+    }
+
+    .logo:hover {
+      transform: rotate(360deg);
+    }
+
+ 
+    h1 {
+      color: #e7d4ff;
+      font-weight: 700;
+      margin-bottom: 15px;
+      font-size: 22px;
+      text-shadow: 0px 2px 6px rgba(140, 80, 255, 0.6);
+    }
+
+   
+    .json-box {
+      background-color: #0d0717; 
+      padding: 8px;
+      border-radius: 8px;
+      color: #d7c6ff;
+      font-size: 12px;
+      overflow: auto;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      max-height: 400px;
+      text-align: left;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      border: 1px solid rgba(150, 90, 255, 0.25);
+      box-shadow: inset 0 0 12px rgba(150, 90, 255, 0.25);
+    }
+
+    .json-box::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .json-box::-webkit-scrollbar-thumb {
+      background: #6c3bff;
+      border-radius: 4px;
+    }
+
+    .json-box::-webkit-scrollbar-thumb:hover {
+      background: #854dff;
+    }
+
+    .method {
+      background-color: #1a0f29;
+      flex: 1 1 calc((100% - 10px) / 2);
+      max-width: calc((100% - 10px) / 2);
+      padding: 8px;
+      border-radius: 6px;
+      box-shadow: 0 0 8px rgba(110, 70, 255, 0.25);
+      text-align: left;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      min-height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border: 1px solid rgba(160, 110, 255, 0.2);
+    }
+
+    .method:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 12px rgba(170, 110, 255, 0.35);
+    }
+
+    .method-name {
+      font-weight: 600;
+      color: #b58cff;
+      margin-bottom: 4px;
+      display: block;
+      font-size: 18px;
+      text-shadow: 0px 0px 6px rgba(140, 80, 255, 0.5);
+    }
+
+    .description {
+      color: #c7afff;
+      margin: 4px 0;
+      font-size: 16px;
+      display: block;
+    }
+
+    .details {
+      color: #e7d4ff;
+      font-size: 14px;
+      margin: 2px 0;
+    }
+
+    .message {
+      color: #c7afff;
+      font-size: 16px;
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .lines {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      margin: auto;
+      width: 90vw;
+      z-index: 0;
+    }
+
+    .line {
+      position: absolute;
+      width: 1px;
+      height: 100%;
+      top: 0;
+      left: 50%;
+      background: rgba(180, 100, 255, 0.15);
+      overflow: hidden;
+    }
+
+    .line::after {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 15vh;
+      width: 100%;
+      top: -50%;
+      left: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(160, 90, 255, 0) 0%,
+        rgba(200, 150, 255, 0.8) 75%,
+        rgba(200, 150, 255, 1) 100%
+      );
+      animation: drop 7s infinite cubic-bezier(0.4, 0.26, 0, 0.97);
+    }
+
+    .line:nth-child(1) { margin-left: -25%; }
+    .line:nth-child(1)::after { animation-delay: 2s; }
+
+    .line:nth-child(3) { margin-left: 25%; }
+    .line:nth-child(3)::after { animation-delay: 2.5s; }
+
+    @keyframes drop {
+      0%   { top: -50%; }
+      100% { top: 110%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="lines">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+
+  <div class="container">
+    <h1>API Methods</h1>
+
+    {{if gt (len .) 0}}
+    <div class="json-box">
+      {{range $key, $value := .}}
+        <div class="method">
+          <span class="method-name">{{$key}}</span>
+          <span class="description">{{$value.description}}</span>
+          <p class="details">IP Allowed: {{$value.ipAllowed}}, URL Allowed: {{$value.urlAllowed}}</p>
+        </div>
+      {{end}}
+    </div>
+    {{else}}
+      <p class="message">No methods available.</p>
+    {{end}}
+
+  </div>
+</body>
+</html>

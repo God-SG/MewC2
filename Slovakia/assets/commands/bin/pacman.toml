@@ -1,0 +1,5 @@
+name=["pacman"]
+description="Play Pacman."
+permissions=["member"]
+runtime="./games/pacman.sh"
+vars=["username=<<user.$username>>"]

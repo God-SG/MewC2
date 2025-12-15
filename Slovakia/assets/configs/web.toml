@@ -1,0 +1,30 @@
+[web]
+enabled=true
+address="38.242.197.92"
+port=80
+
+[web.ssl]
+enabled=false
+cert="./assets/pems/cert.pem"
+key="./assets/pems/key.pem"
+
+[web.telegram]
+enabled=false
+token="tokenhere"
+
+[web.telegram.logs]
+log_roles=[""]
+triggers=[
+        "login_success",
+        "user_banned",
+        "user_unbanned",
+        "user_edited",
+        "user_removed",
+        "user_created",
+        "attack_max_conns",
+        "attack_cooldown_enabled",
+        "attack_powersaving_enabled",
+        "attack_sent",
+        "attack_failed",
+        "attack_target_blacklisted",
+]

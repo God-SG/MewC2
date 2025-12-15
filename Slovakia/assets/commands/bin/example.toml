@@ -1,0 +1,5 @@
+name=["example"]
+description="Example Of Custom Go Scripts"
+permissions=["admin"]
+runtime="go run ./assets/commands/src/example.go"
+vars=["username=<<user.$username>>"]

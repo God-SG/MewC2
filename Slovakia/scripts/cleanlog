@@ -1,0 +1,5 @@
+#!/bin/bash
+while true;do
+    rm -rf /root/Slovakia/assets/logs/recycle/*
+    sleep 3600
+done

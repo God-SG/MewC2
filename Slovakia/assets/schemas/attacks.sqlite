@@ -1,0 +1,12 @@
+
+CREATE TABLE `attacks` (
+          `id` INTEGER PRIMARY KEY AUTOINCREMENT,
+          `user` INTEGER NOT NULL,
+          `group` TEXT NOT NULL,
+          `method` TEXT NOT NULL,
+          `target` TEXT NOT NULL,
+          `resolved` TEXT NOT NULL,
+          `port` INTEGER NOT NULL,
+          `duration` INTEGER NOT NULL,
+          `created` INTEGER NOT NULL
+);

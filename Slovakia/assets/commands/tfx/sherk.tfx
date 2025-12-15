@@ -1,0 +1,8 @@
+name="shrek"
+description="Show the details of your plan"
+# permissions who can access this command
+permissions=""
+# themes which have this command within their scope (empty to not assign to a theme)
+themes="default"
+---------------------------- START ----------------------------
+<<gif("shrekfullmovie")>>

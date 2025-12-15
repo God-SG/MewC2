@@ -1,0 +1,23 @@
+[attacks]
+port_then_duration=true
+attack_prefix="."
+kv_prefix="-"
+resolver=["8.8.8.8", "1.1.1.1"]
+groups=[{name="layer7", conns=5, cooldown=0, max_time=500},{name="layer4", conns=5, cooldown=0, max_time=120}]
+timeout=5
+powersaving_bypass_role="powersaving_bypass"
+powersaving_trigger=1
+send_div=1
+api_ignore=false
+
+[attacks.ongoing]
+mask_enabled=true
+mask_receivers=["!admin"]
+mask_target="*"
+mask_user="#"
+
+[attacks.global]
+enabled=false
+conns=2
+cooldown=30
+max_time=10

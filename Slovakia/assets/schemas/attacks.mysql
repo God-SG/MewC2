@@ -1,0 +1,13 @@
+
+CREATE TABLE `attacks` (
+          `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+          `user` int(10) DEFAULT NOT NULL,
+          `method` VARCHAR(64) DEFAULT NOT NULL,
+          `group` VARCHAR(64) DEFAULT NOT NULL,
+          `target` VARCHAR(128) DEFAULT NOT NULL,
+          `resolved` VARCHAR(128) DEFAULT NOT NULL,
+          `port` int(10) DEFAULT NOT NULL,
+          `duration` int(10) DEFAULT NOT NULL,
+          `created` bigint(20) DEFAULT NOT NULL
+          PRIMARY KEY (`id`)
+);

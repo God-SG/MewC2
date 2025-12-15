@@ -1,0 +1,38 @@
+[pages]
+api_attacksent=true
+api_methods=true
+api_response=true
+
+[endpoints]
+router_endpoint="/api/{key}"
+launch_attack_endpoint="/attack"
+view_methods_endpoint="/methods"
+
+[responses]
+auth_rejection="API Key Is Invalid"
+missing_method_parameters="Missing Method Parameters"
+method_not_available_on_api="Method is not available on the API"
+bad_method="Method Does Not Exist"
+bad_duration="The duration parameter is invalid"
+bad_port="The port parameter is invalid"
+launch_attack_error="There was an error launching your attack on our end. Try again later."
+error_minimum_max_time="Duration must be greater than or equal to minimum time"
+error_maxtime_greater_than_self="Duration presented is greater than your maxtime"
+error_maxtime_greater_than_override="Duration presented is greater than the method override"
+error_maxtime_greater_than_enhanced="Duration presented is greater than the method maxtime"
+error_concurrent_limit_reached="User concurrent limit reached"
+error_group_concurrent_limit_reached="Group concurrent limit reached"
+error_cooldown_period_engaged="Cooldown period engaged"
+error_invalid_target="Invalid target provided"
+error_user_blacklisted="User blacklisted"
+error_system_blacklisted="System blacklisted"
+error_unauthorized_sender="Sender is not authorized"
+error_powersaving="Powersaving enabled"
+error_ongoing_method_cap="Method ongoing limit reached"
+error_global_conns="No open global slots"
+error_global_maxtime="Maxtime breaches the global limit"
+error_global_cooldown="Global cooldown engaged"
+error_group_cooldown="Group cooldown"
+error_method_disabled="Method disabled"
+error_max_attacks_today="Your daily max attacks has been reached"
+error_attacks_disabled="Attacks are now disabled"

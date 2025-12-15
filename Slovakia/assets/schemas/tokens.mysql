@@ -1,0 +1,11 @@
+
+CREATE TABLE `tokens` (
+              `id` INTEGER(10) NOT NULL AUTOINCREMENT,
+              `token` VARCHAR(255) NOT NULL,
+              `plan` VARCHAR(128) NOT NULL,
+              `created` BIGINT NOT NULL,
+              `expiry` BIGINT NOT NULL,
+              `parent` INTEGER(10) NOT NULL,
+              `owner` INTEGER(10) NOT NULL,
+              PRIMARY KEY (`id`)
+);

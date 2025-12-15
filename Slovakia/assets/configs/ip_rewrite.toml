@@ -1,0 +1,11 @@
+users=[
+          "root",
+          "usernamehere"
+]
+
+roles=[
+          "admin"
+]
+
+placerholder_ip="*.*.*.*"
+enabled=true

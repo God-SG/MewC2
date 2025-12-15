@@ -1,0 +1,27 @@
+app_name="Mew" 
+default_theme="default"
+theme_changer=[
+    "member",
+    "admin",
+    "mod"
+]
+
+[default]
+hidden=false
+startup=false
+description="Mew"
+branding="./assets/branding/themes/default/"
+tables="./assets/branding/tables/configs/box/"
+disabledCommands=[
+    "ip",
+    "help",
+    "methods"
+]
+
+[default.style]
+enabled=true
+colours=[
+    [200,150,255],
+    [150,80,255],
+    [180,0,255]
+]

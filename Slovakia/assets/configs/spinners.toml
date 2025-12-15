@@ -1,0 +1,17 @@
+[spinner]
+frames = [
+              "|", "/", "-", "\\"
+]
+
+delay=150 # Millisecond Delay
+
+[welcome]
+frames=[
+              "I am a demo :O",
+              "Look who just joined us...",
+              "Have any questions? Feel free to message someone for support.",
+              "Remember you can use TAB to auto complete your commands!",
+              "Guess who's back!?"
+]
+
+delay=1000 # Millisecond Delay

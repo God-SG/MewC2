@@ -1,0 +1,24 @@
+name="effectshowcase"
+description="Show the details of your plan"
+permissions=""
+themes="default"
+---------------------------- START ----------------------------
+<?slavic
+term.Resize(80, 24)
+clear()
+?><<fadein(style.color("slovakia", cnc()) + style.color("white", " Special Effects Showcase."), 5)>>
+
+<<fadein(style.color("slovakia", "Starting") + style.color("white", " Effects!"), 5)>>
+
+<<progress("Starting", 100, 15, 63, "=", " ", true, true, "slovakia")>>
+
+<<fadein((style.color("slovakia", "FadeIn Effect")), 40)>>
+
+<<typewritter((style.color("slovakia", "Typewritter Effect")), 20)>>
+
+<<glitch((style.color("slovakia", "Glitch Effect")), 4000)>>
+
+<<rainbow("Rainbow Effect", 20)>>
+
+<<chaos((style.color("slovakia", "Chaos Effect")), 4000)>>
+

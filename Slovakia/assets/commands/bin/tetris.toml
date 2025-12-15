@@ -1,0 +1,5 @@
+name=["tetris"]
+description="Play Tetris."
+permissions=["member"]
+runtime="./games/tetris.sh"
+vars=["username=<<user.$username>>"]

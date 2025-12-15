@@ -1,0 +1,6 @@
+#!/bin/bash
+while true;do
+    pkill -f -9 Slovakia
+    cd /root/Slovakia/;./slovakia
+    sleep 5
+done

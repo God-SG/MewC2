@@ -1,0 +1,23 @@
+
+CREATE TABLE `users` (
+        `id` INTEGER PRIMARY KEY AUTOINCREMENT,
+        `parent` INTEGER NOT NULL,
+        `username` TEXT NOT NULL,
+        `password` BLOB NOT NULL,
+        `sshkey` BLOB DEFAULT NULL,
+        `key` BLOB NOT NULL,
+        `roles` TEXT NOT NULL,
+        `themes` TEXT NOT NULL,
+        `maxtime` INTEGER NOT NULL,
+        `cooldown` INTEGER NOT NULL,
+        `conns` INTEGER NOT NULL,
+        `banned` BOOLEAN DEFAULT 0,
+        `created` INTEGER NOT NULL,
+        `expiry` INTEGER NOT NULL,
+        `api` BOOLEAN DEFAULT 0,
+        `apiKey` BLOB DEFAULT NULL,
+        `newUser` BOOLEAN DEFAULT 1,
+        `telegramID` INTEGER NOT NULL,
+        `maxSessions` INTEGER NOT NULL,
+        `max_attacks` INTEGER DEFAULT 0
+);

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Sent</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Satoshi:wght@300;400;500;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box !important;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: table;
+            width: 100%;
+            height: 100%;
+            background-color: #0b0612; /* deep purple */
+            color: #e7d4ff;
+            line-height: 1.6;
+            position: relative;
+            font-family: 'Satoshi', sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
+            background-color: #140a23;
+            border-radius: 12px;
+            padding: 20px;
+            width: 90%;
+            max-width: 800px;
+            box-shadow: 0 0 25px rgba(143, 66, 255, 0.35);
+            text-align: center;
+            overflow-y: auto;
+            margin: auto;
+            position: relative;
+            z-index: 1;
+            border: 1px solid rgba(180,120,255,0.2);
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 15px;
+            transition: transform 0.3s ease-in-out;
+            filter: drop-shadow(0px 2px 4px rgba(120, 60, 255, 0.6));
+        }
+
+        .logo:hover {
+            transform: rotate(360deg);
+        }
+
+        h1 {
+            color: #e7d4ff;
+            font-weight: 700;
+            margin-bottom: 15px;
+            font-size: 22px;
+            text-shadow: 0px 2px 6px rgba(140,80,255,0.6);
+        }
+
+        .json-box {
+            background-color: #0d0717;
+            padding: 8px;
+            border-radius: 8px;
+            color: #d7c6ff;
+            font-size: 12px;
+            overflow: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            max-height: 400px;
+            text-align: left;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            border: 1px solid rgba(150, 90, 255, 0.25);
+            box-shadow: inset 0 0 12px rgba(150, 90, 255, 0.25);
+        }
+
+        .json-box::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .json-box::-webkit-scrollbar-thumb {
+            background: #6c3bff;
+            border-radius: 4px;
+        }
+
+        .json-box::-webkit-scrollbar-thumb:hover {
+            background: #854dff;
+        }
+
+        .message {
+            color: #c3e88d;
+            font-size: 16px;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .lines {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            margin: auto;
+            width: 90vw;
+        }
+
+        .line {
+            position: absolute;
+            width: 1px;
+            height: 100%;
+            top: 0;
+            left: 50%;
+            background: rgba(180, 100, 255, 0.15);
+            overflow: hidden;
+        }
+
+        .line::after {
+            content: '';
+            display: block;
+            position: absolute;
+            height: 15vh;
+            width: 100%;
+            top: -50%;
+            left: 0;
+            background: linear-gradient(
+                to bottom,
+                rgba(160,90,255,0) 0%,
+                rgba(200,150,255,0.8) 75%,
+                rgba(200,150,255,1) 100%
+            );
+            animation: drop 7s infinite cubic-bezier(0.4,0.26,0,0.97);
+        }
+
+        .line:nth-child(1) { margin-left: -25%; }
+        .line:nth-child(1)::after { animation-delay: 2s; }
+
+        .line:nth-child(3) { margin-left: 25%; }
+        .line:nth-child(3)::after { animation-delay: 2.5s; }
+
+        @keyframes drop {
+            0% { top: -50%; }
+            100% { top: 110%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+    <div class="container">
+        <h1>Method Sent</h1>
+        <div class="json-box" id="jsonResponse"></div>
+    </div>
+
+    <script>
+        const responseData = {
+            Status: "{{.status}}",
+            Method: "{{.method}}",
+            Target: "{{.target}}",
+            Duration: "{{.duration}}",
+            Port: "{{.port}}",
+            Time: "{{.pickup}}",
+        };
+        document.getElementById('jsonResponse').textContent = JSON.stringify(responseData, null, 2);
+    </script>
+</body>
+</html>
+
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lines .line {
+        background: rgba(180, 100, 255, 0.15);
+    }
+
+    .line::after {
+        background: linear-gradient(
+            to bottom,
+            rgba(160,90,255,0) 0%,
+            #4b2a86 75%,
+            #4b2a86 100%
+        );
+    }
+</style>

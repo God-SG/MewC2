@@ -1,0 +1,8 @@
+{
+	"ovh": {
+		"force": true,
+		"enabled": false,
+		"organisations": ["OVH SAS"],
+		"asns": [16276]
+	}
+}

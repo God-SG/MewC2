@@ -1,0 +1,9 @@
+
+CREATE TABLE `blacklists` (
+              `id` INTEGER(10) NOT NULL AUTO_INCREMENT,
+              `user` INTEGER(10) NOT NULL,
+              `target` VARCHAR(255) NOT NULL,
+              `created` BIGINT NOT NULL,
+              `expires` BIGINT NOT NULL,
+              PRIMARY KEY (`id`)
+);
